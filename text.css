@@ -1,0 +1,31 @@
+.tex-ali-c{
+	text-align: center;
+}
+
+.tex-deco{
+	text-decoration: none;
+}
+
+.tex-deco-un{
+	text-decoration: underline;
+}
+
+.info{
+	padding: 0.5rem;
+}
+
+.padtopbottom{
+	padding: 2em 2em 2em 2em;
+}
+
+.pad-sml{
+	padding: 1em;
+}
+
+.bor-radius{
+	-webkit-border-radius:50px;
+}
+
+.tex-shadow{
+	text-shadow: 2px 2px gray;
+}

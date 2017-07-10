@@ -1,0 +1,120 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif; 
+*/
+img {
+	max-width:100%;
+}
+
+.aloha{
+	/* height: 100px; */
+	/* width: 150px; */
+	
+	height: 4em;
+	width: 7em;
+}
+
+.cart{
+	/* height: 80px; */
+	/* width: 80px; */
+	
+	height: 4em;
+	width: 4em;
+}
+
+.nav1 li{
+	padding-right:  4em;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	transition:color .5s ease;
+}
+a:visited{
+	color:black;
+}
+
+a:hover {
+	color: #339999;
+	font-weight: bold;
+}
+
+
+.banner {
+    background-image: url("images/banner-girl.png") , url("images/flower-bkgd.jpg");
+    background-size: 20%, 100%;
+    background-position: bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    height: 50vw;
+}
+
+
+.child{
+	max-width:25%;
+}
+
+.child img{
+	max-width:100%;
+	transition:background-color 1s ease;
+}
+
+.child:hover{
+	background-color:#BCC6CC;
+}
+
+.product{
+	padding-top: 20px;
+}
+
+.disc{
+	font-size: 1.5em;
+	
+}
+
+.subscribe{
+	background-image: url("images/wave-bkgd.jpg");
+	background-position: bottom, center;
+	height: 25em;
+}
+
+.subbtn{
+	height: 2.5em;
+    width: 15em;
+	transition:background-color 1s ease;
+}
+
+.subbtn:hover{
+	background-color:blue;
+}
+
+input{
+	background-color: transparent;
+	outline-width: 0;
+    border: 0px solid;
+    color: #CCC;
+}
+
+.sub-box{
+	height: 3em;
+    width: 25em;
+}
+
+.subfiled{
+	height: 3.5em;
+}
+
+.icon{
+	width: 30%;
+}
+
+.social {
+	width: 5rem;
+}
+
+.social a{
+	text-decoration:none;
+}
+
+.footer{
+	background-color: #2B1B17;
+}
