@@ -1,6 +1,16 @@
-/* mobile and down */
+
+
+.tablet-flex-row{
+		flex-direction:row;
+	 } 
+
+.tablet-flex-col{
+		flex-direction:column;
+	 } 
+	 
+/* mobile and down */ 
 @media( max-width: 600px){
-	.tablet-flex-row{
+	.tablet-flex-col{
 		flex-direction:column;
 		justify-content:center;
 		align-items:center;
