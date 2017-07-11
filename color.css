@@ -1,3 +1,5 @@
+/*-----------------background-color---------------------*/
+
 .bgcw{
 	background-color: white;
 }
@@ -10,6 +12,7 @@
 	background-color: red;
 }
 
+/*-----------------color---------------------*/
 .wcolor{
 	color: white;
 }
@@ -22,7 +25,6 @@
 	color:gray;
 }
 
-.opacity { 
-background: rgb( ,  , ); 
-background: rgba( ,  ,  , .5); 
+.product-color{
+	color: #333;
 }

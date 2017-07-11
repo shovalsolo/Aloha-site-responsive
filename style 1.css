@@ -6,19 +6,11 @@ img {
 }
 
 .aloha{
-	/* height: 100px; */
-	/* width: 150px; */
-	
-	height: 4em;
 	width: 7em;
 }
 
 .cart{
-	/* height: 80px; */
-	/* width: 80px; */
-	
-	height: 4em;
-	width: 4em;
+	width: 3em;
 }
 
 .nav1 li{
@@ -36,18 +28,16 @@ a:visited{
 
 a:hover {
 	color: #339999;
-	font-weight: bold;
 }
 
+.social a:visited {
+	color: white;
+}
 
 .banner {
-    background-image: url("images/banner-girl.png") , url("images/flower-bkgd.jpg");
-    background-size: 20%, 100%;
-    background-position: bottom, center;
-    background-repeat: no-repeat, no-repeat;
-    height: 50vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("images/banner-girl.png") top 5em center no-repeat, url("images/flower-bkgd.jpg") center center no-repeat;
 }
-
 
 .child{
 	max-width:25%;
@@ -71,15 +61,20 @@ a:hover {
 	
 }
 
-.subscribe{
-	background-image: url("images/wave-bkgd.jpg");
-	background-position: bottom, center;
-	height: 25em;
+.subscribe{ /*final section */
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/wave-bkgd.jpg");
+    background-position: bottom;
+   	padding: 5rem;
+
+
+/*	background-image: url("images/wave-bkgd.jpg");
+	background-position: bottom, center;*/
+
 }
 
-.subbtn{
-	height: 2.5em;
-    width: 15em;
+.subbtn{ /*button */
+	padding: 5px;
+    width: 10em;
 	transition:background-color 1s ease;
 }
 
@@ -87,20 +82,16 @@ a:hover {
 	background-color:blue;
 }
 
+.sub-box{ /* input div box */
+    width: 20em;
+	padding :5px;
+}
+
 input{
 	background-color: transparent;
 	outline-width: 0;
     border: 0px solid;
-    color: #CCC;
-}
-
-.sub-box{
-	height: 3em;
-    width: 25em;
-}
-
-.subfiled{
-	height: 3.5em;
+    color: gray;
 }
 
 .icon{
@@ -118,3 +109,4 @@ input{
 .footer{
 	background-color: #2B1B17;
 }
+

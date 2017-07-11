@@ -1,3 +1,5 @@
+/*-----------------font-size---------------------*/
+
 .font-sml{
 	font-size:10px;
 }
@@ -10,11 +12,17 @@
 	font-size:40px;
 }
 
+.font-ex-lar{
+	font-size:70px;
+}
+
 .font-we-bo{
 	font-weight: bold;
 }
 
-.ita{
+/*-----------------font-family---------------------*/
+
+.font-ita{
 	font-style:italic;
 }
 
@@ -25,6 +33,7 @@
 .font-f-play{
 	font-family: 'Playfair Display', serif;
 }
+
 
 
 	
