@@ -8,17 +8,37 @@
 		flex-direction:column;
 	 } 
 	 
-/* mobile and down */ 
-@media( max-width: 600px){
+/* tablet and desktop */ 
+
+@media( min-width: 600px) and (max-width: 1200px){
+	.tablet-flex-row{
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+	}
+	
+}
+/* for mobile less 600px */
+
+@media( max-width: 700px){
 	.tablet-flex-col{
 		flex-direction:column;
 		justify-content:center;
 		align-items:center;
-	}
-}
-/* for tablet and desktop */
-@media( min-width: 600px){
-	.tablet-flex-row{
-		flex-direction:row;
 	 } 
+	 .tablet-banner-font{
+		font-size:30px;
+	}
+	.tablet-nav-drop{
+		order:3;
+		align-items:flex-end;
+	}
 } 
+
+
+
+
+
+
+
+

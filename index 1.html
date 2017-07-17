@@ -3,7 +3,7 @@
 <head>
 	
 	<meta charset="utf-8"/>
-	<title>PROJECT 1 Aloha Apparel Co. </title>
+	<title>PROJECT 2 mobile Aloha Apparel Co. </title>
 <!--Css include part-->
     <link rel="stylesheet" type="text/css" href="style 1.css"/>
 
@@ -16,8 +16,10 @@
     <link rel="stylesheet" type="text/css" href="text.css"/>
 
     <link rel="stylesheet" type="text/css" href="font.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="links.css"/>
 
-    <link rel="stylesheet" type="text/css" href="responsive.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="responsive.css"/>-->
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
@@ -27,68 +29,102 @@
 </head>
 <body  class="bgcw">
 <!--Header of the site-->
-	<header class="flex flex-jus-spa-bet">
-        <div class="flex-ali-cen pad-sml">
-    		<img class="aloha" src="images\aloha-logo.svg">
-        </div>
+	<header >
+        <div class="flex flex-jus-spa-bet flex-wrap">
+            <div class="flex-ali-cen pad-sml">
+        		<img class="aloha" src="images\aloha-logo.svg">
+            </div>
+            
 <!--navigation bar-->
-        <nav class="nav1 flex flex-ali-cen">
-
-            <ul class="flex">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="">
-            <img class="cart pad-sml" src="images\cart-icon.svg">
+            <div class="border-color-top flex-order-four pad-up-down-lar min-width font-f-rale">
+                <nav>
+                    <ul class="flex flex-dir-row flex-jus-cen ">
+                        <li class="pad-left-right-lar"><a href="#">ABOUT</a></li>
+                        <li class="pad-left-right-lar" ><a href="#">SHOP</a></li>
+                        <li class="pad-left-right-lar"><a href="#">FEATURED</a></li>
+                        <li class="pad-left-right-lar"><a href="#">UPDATES</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p id="cart" class="cart"></p>
+            </div>
+            <div class="cart flex-ali-cen pad-sml">
+                <img class="" src="images\cart-icon.svg">
+            </div>
+            
         </div>
 	</header>
 <!--Top banner of the site-->
-    <section class="banner flex flex-center flex-dir-col wcolor opacity">
-        <p><span class="pad-up-down font-f-rale text-shadow font-we-bo">NEW COLLECTION</span></p><br>
-        <h1><span class="font-ex-lar font-f-play text-shadow">Spring / Summer 2016</span></h1>
+    <section class="banner flex flex-center flex-dir-col wcolor">
+        <p><span class=" font-f-rale text-shadow font-we-bo">NEW COLLECTION</span></p><br>
+        <h1><span class="font-medi font-f-play text-shadow">Spring / Summer 2016</span></h1>
     </section>
 <!--CTA of the site-->
     <main>
-        <section class="cta bgcw text-ali-c pad-med ">
-            <p class="pad-up-down-lar "><span class="font-ita font-lar ">Hand-Crafted</span><span class="font-we-bo font-lar"> Styles</span></p>
-            <p class="pad-up-down font-f-rale">Aloha apparel Co sells only the finest ready-to-travel clothing. Browse our</p> 
-            <p class="pad-up-down font-f-rale">current selection of products or sign-up for updates below.</p>
+        <section class="cta bgcw  text-ali-c pad-med">
+            <p class="pad-bottom-med "><span class="font-ita font-lar ">Hand-Crafted</span><span class="font-we-bo font-lar"> Styles</span></p>
+            <p class="pad-bottom-sml font-f-rale font-sml line-height-sml">Aloha apparel Co sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
         </section>
-        <hr>
+        
+<!--The category area -->
+<section>
+    <div>
+        <div class=" flex-wrap">
+            <div class="mens "><p class="wcolor text-ali-c font-f-rale pad-lar">MEN'S</p></div>
+
+            <div class="flex flex-dir-row flex-jus-spa-bet flex-grow-sml">
+                <div class="trends"><p class="wcolor text-ali-c font-f-rale pad-lar">TRENDS</p></div>
+                <div class=" glasses"><p class="wcolor text-ali-c font-f-rale pad-lar">GLASSES</p></div>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-dir-row flex-jus-spa-bet flex-grow-sml">
+                <div class="sale"><p class="wcolor text-ali-c font-f-rale pad-lar">SALE</p></div>
+                <div class=" bags"><p class="wcolor text-ali-c font-f-rale pad-lar">BAGS</p></div>
+            </div>
+            
+            <div class=" womens"><p class="wcolor  text-ali-c font-f-rale pad-lar">WOMEN'S</p></div>
+        </div>
+    </div>
+</section>
+        
 <!--The product area -->
-        <section class="product text-ali-c"> 
-            <p class="pad-up-down-lar "><span class="font-ita pad-bottom-sml font-lar">Most-loved </span><span class="font-we-bo font-lar">Products</span></p>
-                <div class="flex bgcw text-ali-c tablet-flex-row tablet-flex-col"> 
-                    <div class="child pad-sml"><img src="images\stretch-knit-dress.jpg">
+        <section class="text-ali-c"> 
+            <p class="pad-up-down-lar"><span class="font-ita font-lar">Most-loved </span><span class="font-we-bo font-lar">Products</span></p>
+                <div class="flex flex-dir-col flex-ali-cen bgcw"> 
+
+                    <div class="child pad-sml"><img src="images\stretch-knit-dress.jpg" onclick="addCart()">
                     <p class="font-f-rale pad-bottom-sml gcolor">DRESSES</p>
                     <p class="disc rcolor font-f-play pad-bottom-sml">Stretch Knit Dress</p>
                     <p class="font-f-rale pad-bottom-sml gcolor">$169.00</p>
                     </div>
-                    <div class="child pad-sml"><img src="images\cotton-blue-shirt.jpg">
+
+                    <div class="child pad-sml"><img src="images\cotton-blue-shirt.jpg" onclick="addCart()">
                     <p class="font-f-rale pad-bottom-sml gcolor">SHIRTS</p>
                     <p class="disc rcolor font-f-play pad-bottom-sml">Cotton Blue Shirt</p>
                     <p class="font-f-rale pad-bottom-ml gcolor">$89.00</p>
                     </div>
-                    <div class="child pad-sml"><img src="images\checked-stretch-dress.jpg">
+
+                    <div class="child pad-sml"><img src="images\checked-stretch-dress.jpg" onclick="addCart()">
                     <p class="font-f-rale pad-bottom-sml gcolor">DRESSES</p>
                     <p class="disc rcolor font-f-play pad-bottom-sml">Checked Stretch Dress</p>
                     <p class="font-f-rale pad-bottom-sml gcolor">$129.00</p>
                     </div>
-                    <div class="child pad-sml"><img src="images\blue-hipster-backpack.jpg">
+
+                    <div class="child pad-sml"><img src="images\blue-hipster-backpack.jpg" onclick="addCart()">
                     <p class="font-f-rale pad-bottom-sml gcolor">BAGS</p>
                     <p class="disc rcolor font-f-play pad-bottom-sml">Blue Hipster Backpack</p>
                     <p class="font-f-rale pad-bottom-sml gcolor">$69.00</p>
                     </div>
+
                 </div>
         </section>
 <!--final part of the site-->
-        <section class="subscribe flex flex-dir-col flex-center text-ali-c wcolor pad-lar margin-bot">
+        <section class="subscribe flex flex-dir-col flex-center text-ali-c wcolor  margin-bot">
         <div>
-                <p class="pad-bottom-lar"><span class="font-ita font-lar text-shadow">Sign-up for </span><span class="font-we-bo font-lar text-shadow">Updates</span></p>
-                <p class="pad-bottom-med font-f-rale">Stay updated on our latest products, be first to find out about upcoming</p>
-                <p class="pad-bottom-med font-f-rale">sales, and get free style tips from our blog.Unsubscribe at any time.</p>
+                <p class="pad-up-down-med"><span class="font-ita text-shadow font-medi">Sign-up for </span><span class="font-we-bo text-shadow font-medi">Updates</span></p>
+                <p class=" font-f-rale font-sml line-height-sml">Stay updated on our latest products, be first to find out about upcoming sales, and get free style tips from our blog.Unsubscribe at any time.</p>
         </div>
         <div class="sub-box bgcw bor-radius ">
                     <form name="form1">
@@ -100,41 +136,42 @@
         </section>
     </main>
 <!--Footer of the site-->
-    <footer class="footer flex wcolor pad-med flex-jus-spa-bet">
-    <div class="contact text-deco-no">
-    <ul>
-        <li ><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Aloha Apparel Co.</li>
-        <li class="pad-up-down">Powerd by HTML and CSS.</li><br>
-        <li class="pad-up-down">604-604-6040. <a class="wcolor text-deco-un" href="mailto:info@alohaappael.com?Subject=Hello%20again">info@alohaappael.com</a></li><br>
-        <li class="gcolor ">1490 W Broadway</li>
-        <li class="gcolor pad-up-down">Vancouver, BC, Vanada</li>
-    </ul>
+    <footer class="footer pad-med wcolor ">
+    <div class="flex flex-dir-col flex-ali-cen">
+    
+        <p ><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Aloha Apparel Co.</p>
+        <p class="pad-up-down">Powerd by HTML and CSS.</p><br>
+        <p class="pad-up-down">604-604-6040. <a class="wcolor text-deco-un" href="mailto:info@alohaappael.com?Subject=Hello%20again">info@alohaappael.com</a></p><br>
+        <p class="gcolor ">1490 W Broadway</p>
+        <p class="gcolor pad-up-down">Vancouver, BC, Vanada</p>
+    
     </div>	
-    <div class="media text-deco-no">
-    <ul class="flex flex-dir-col flex-ali-con-cen font-f-rale">
-        <li class="flex text-ali-le">
-            <div class="icon pad-up-down"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-            <div class="social pad-up-down"><a class="wcolor" href="#">Facebook</a></div>
-        </li>
-        <li class="flex text-ali-le">
-            <div class="icon pad-up-down"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-            <div class="social pad-up-down"><a class="wcolor" href="#">Twitter</a></div>
-        </li>
-        <li class="flex ">
-            <div class="icon pad-up-down"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-            <div class="social pad-up-down"><a class="wcolor" href="#">Instagram</a></div>
-        </li>
-        <li class="flex ">
-            <div class="icon pad-up-down"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
-            <div class="social pad-up-down"><a class="wcolor" href="#">Pinterest</a></div>
-        </li>
-        <li class="flex ">
-        <div class="icon pad-up-down"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
-        <div class="social pad-up-down"><a class="wcolor" href="#">Google+</a></div>
-        </li>
-    </ul>
+    <div class="flex flex-dir-row pad-up-down-lar flex-jus-cen ">
+    
+        <p class="flex text-ali-le">
+            <div class=""><i class="fa fa-facebook" aria-hidden="true"></i></div>
+            <div class="text-indent-on pad-left-right-sml"><a class="wcolor" href="#">Facebook</a></div>
+        </p>
+        <p class="flex text-ali-le">
+            <div class=""><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            <div class="text-indent-on pad-left-right-sml"><a class="wcolor" href="#">Twitter</a></div>
+        </p>
+        <p class="flex ">
+            <div class=""><i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <div class="text-indent-on pad-left-right-sml"><a class="wcolor" href="#">Instagram</a></div>
+        </p>
+        <p class="flex ">
+            <div class=""><i class="fa fa-pinterest" aria-hidden="true"></i></div>
+            <div class="text-indent-on pad-left-right-sml"><a class="wcolor" href="#">Pinterest</a></div>
+        </p>
+        <p class="flex ">
+        <div class=""><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+        <div class="text-indent-on pad-left-right-sml"><a class="wcolor" href="#">Google+</a></div>
+        </p>
+    
     </div>
     </footer>
+    <script src="addingToCart.js"></script>
 </body>
 </html>
 

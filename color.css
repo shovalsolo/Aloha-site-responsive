@@ -21,6 +21,10 @@
 	color:red;
 }
 
+mnbcolor{
+    color: #151B54;
+}
+
 .gcolor{
 	color:gray;
 }
@@ -28,3 +32,9 @@
 .product-color{
 	color: #333;
 }
+
+.border-color-top{
+	border-top: 1px solid gray;	
+}
+
+
