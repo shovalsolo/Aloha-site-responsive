@@ -23,11 +23,23 @@
 		align-items:center;
 	}
 */
+    
     .subsection1{
+        display: flex;
+        flex-flow: row;
+    }
+    .subsection1-a{
         width:50%;
+        margin-top:0;
     }
 
-     .subsection2{
+    .subsection2{
+        display: flex;
+        flex-flow: row;
+        margin:0;
+    }
+
+     .subsection2-a{
         width:50%;
     }
 	
