@@ -1,22 +1,43 @@
+
+
 if ($(window).width() < 600) {
-    $('.bxslider').bxSlider({
-      mode: 'fade',
-      //slideWidth: 400,
+    $('.slide').bxSlider({
       minSlides: 1,
-      maxSlides: 1
+      maxSlides: 1,
+      mode: 'fade',
+      slideWidth: 400,
+      
     });
 }else if ($(window).width() < 1000){
-    $('.bxslider').bxSlider({
-      mode: 'fade',
-      //slideWidth: 400,
+    $('.slide').bxSlider({
       minSlides: 2,
-      maxSlides: 2
+      maxSlides: 2,
+      mode: 'fade',
+      slideWidth: 400,
+      
     });
 }else{
-    $('.bxslider').bxSlider({
-      mode: 'fade',
-      //slideWidth: 400,
+    $('.slide').bxSlider({
       minSlides: 4,
-      maxSlides: 4
+      maxSlides: 4,
+      mode: 'fade',
+      slideWidth: 400,
+      
     });
 }
+
+
+
+
+
+
+
+/* working 
+$('.slide').bxSlider({
+  minSlides: 2,
+  maxSlides: 2,
+  slideWidth: 360,
+  slideMargin: 10
+});*/
+
+
