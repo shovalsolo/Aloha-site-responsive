@@ -1,12 +1,30 @@
-	 
+/* Mobile */
+
+/*
+@media( man-width: 600px){
+    .mob-order{
+        order: 2;
+    }
+    
+}
+*/
+
+
 /* tablet */ 
 
 
 @media( min-width: 600px) and (max-width: 1000px){
-
+    
+    .tab-border-left{
+        border-left: 2px solid white;
+    }
+    
+    .tab-border-right{
+        border-right: 2px solid white;
+    }
     
     .tab-order{
-        order: 4;
+        order: 2;
     }
     
     .tab-border-off{
@@ -82,6 +100,17 @@
 		align-items:center;
 	}
 */
+     .dt-border-left{
+        border-left: 2px solid white;
+    }
+    
+    .dt-border-right{
+        border-right: 2px solid white;
+    }
+    
+    .dt-order{
+        order: 2;
+    }
      .dt-border-off{
         border-top: 0px;
     }

@@ -51,8 +51,9 @@ nav ul li  a{
     //min-width: 100%;
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/mens-category.jpg") no-repeat center;
     background-size: cover;
-    border: 3px solid white;
+    border-bottom: 2px solid white;
     flex: 0 0 50%;
+    height: 30vh;
 }
 
 
@@ -60,10 +61,10 @@ nav ul li  a{
     //max-width: 50%;
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/trends-category.jpg") no-repeat center;
     background-size: cover;
-    border-color: 3px solid white;
     flex: 0 0 50%;
-    border: 3px solid white;
-    
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    height: 30vh;
 }
 
 
@@ -72,7 +73,7 @@ nav ul li  a{
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/glasses-category.jpg") no-repeat center;
     background-size: cover;
     flex: 0 0 50%;
-    border: 3px solid white;
+    height: 30vh;
 }
 
 
@@ -81,7 +82,8 @@ nav ul li  a{
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/sale-category.jpg") no-repeat center;
     background-size: cover;
     flex: 0 0 50%;
-    border: 3px solid white;
+    border-right: 2px solid white;
+    height: 30vh;
 }
 
 
@@ -90,7 +92,9 @@ nav ul li  a{
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/bags-category.jpg") no-repeat center;
     background-size: cover;
     flex: 0 0 50%;
-    border: 3px solid white;
+    border: 2px 0px 2px 2px solid white;
+    border-bottom: 2px solid white;
+    height: 30vh;
 }
 
 .womens{
@@ -98,7 +102,7 @@ nav ul li  a{
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/womens-category.jpg") no-repeat center;
     background-size: cover;
     flex: 0 0 50%;
-    border: 3px solid white;
+    height: 30vh;
 }
 
 .child{

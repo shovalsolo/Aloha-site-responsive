@@ -91,12 +91,16 @@
 	padding-top: 1rem;
 }
 
-.pad-top-sml{
+.pad-top-med{
 	padding-top: 2rem;
 }
 
-.pad-top-sml{
+.pad-top-lar{
 	padding-top: 3rem;
+}
+
+.pad-top-ex-lar{
+	padding-top: 5rem;
 }
 
 /*--------------------------------------*/
@@ -120,6 +124,12 @@
 .max-wid{
 	width :100%;
 }
+
+.max-wid-sml{
+	width :30%;
+}
+
+
 /*-----------------margin----------------------*/
 .margin-all-sml{
 	margin: 1px;
