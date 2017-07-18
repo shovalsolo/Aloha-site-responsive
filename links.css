@@ -6,7 +6,7 @@ a{
 	transition:color .5s ease;
 }
 a:visited{
-	color:black;
+	color:white;
 }
 
 a:hover {

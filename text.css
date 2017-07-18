@@ -60,7 +60,7 @@
 	padding: 2em;
 }
 .pad-lar{
-	padding: 5em;
+	padding: 5em ;
 }
 
 .pad-trand{
@@ -105,9 +105,9 @@
 	text-indent: -10000px;
 }
 
-.text-indent-off{
-	text-indent: 0px;
-}
+/* .text-indent-off{ */
+	/* text-indent: 0px; */
+/* } */
 
 .bor-radius{
 	-webkit-border-radius:50px;
