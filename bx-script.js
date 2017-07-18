@@ -1,43 +1,35 @@
 
-
 if ($(window).width() < 600) {
+     console.log('1');
     $('.slide').bxSlider({
-      minSlides: 1,
+       
       maxSlides: 1,
-      mode: 'fade',
-      slideWidth: 400,
+      minSlides: 1,
+      slideWidth: 300,
+      slideMargin: 10
       
     });
 }else if ($(window).width() < 1000){
+    console.log('2');
     $('.slide').bxSlider({
-      minSlides: 2,
+
       maxSlides: 2,
-      mode: 'fade',
-      slideWidth: 400,
+      minSlides: 2,
+      slideWidth: 300,
+      slideMargin: 10
       
     });
 }else{
+    console.log('3');
     $('.slide').bxSlider({
-      minSlides: 4,
+                
       maxSlides: 4,
-      mode: 'fade',
-      slideWidth: 400,
+      minSlides: 4,
+      slideWidth: 300,
+      slideMargin: 10
       
     });
 }
 
-
-
-
-
-
-
-/* working 
-$('.slide').bxSlider({
-  minSlides: 2,
-  maxSlides: 2,
-  slideWidth: 360,
-  slideMargin: 10
-});*/
 
 
