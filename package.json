@@ -4,7 +4,11 @@
   "description": "PROJECT 1 Aloha Apparel Co. mobile version",
   "main": "addingToCart.js",
   "scripts": {
+    "start": "node index 1.html",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.4.0"
   },
   "repository": {
     "type": "git",
