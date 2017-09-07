@@ -1,6 +1,9 @@
 /__MACOSX/
 /__MACOSX/*
+/node_modules/
 font-awesome.css
 font-awesome.min.css
-/node_modules/
+.img
+.svg
+.jpg
 
