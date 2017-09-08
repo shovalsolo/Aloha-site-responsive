@@ -5,6 +5,7 @@
   "main": "addingToCart.js",
   "scripts": {
     "start": "node index 1.html",
+    "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
